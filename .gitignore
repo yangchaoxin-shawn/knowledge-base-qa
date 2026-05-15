@@ -8,9 +8,6 @@ __pycache__/
 # Virtual environment
 venv/
 env/
-.env
-.env.local
-.env.*.local
 
 # IDE
 .vscode/
@@ -37,3 +34,8 @@ Thumbs.db
 dist/
 build/
 *.egg-info/
+
+# Environment files (keep .env.example as template)
+.env
+.env.local
+.env.*.local
